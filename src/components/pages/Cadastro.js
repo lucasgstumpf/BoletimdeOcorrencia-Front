@@ -21,10 +21,23 @@ function Cadastro() {
         <Input
           type="number"
           text="CPF"
-          name="password"
+          name="cpf"
           placeholder="Insira seu CPF" />
 
-        <SubmitButton text="Cadastrar"/>
+        <Input
+          type="number"
+          text="Telefone"
+          name="telefone"
+          placeholder="Insira seu telefone" />
+
+        <Input
+          type="date"
+          text="Data de nascimento"
+          name="telefone"
+          placeholder="Insira sua data de nascimento" />
+
+
+        <SubmitButton text="Cadastrar" />
       </form>
     </div>
 
