@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Login.module.css';
 import Input from '../form/Input'
-import Select from '../form/Select'
 import SubmitButton from '../form/SubmitButton';
 
 function Login() {
