@@ -13,7 +13,7 @@ function Registros() {
       <LinkButton to="/furtoRoubo" text="Furto ou roubo" />
       <LinkButton to="/acidente" text="Acidente" />
       <br/>
-      <LinkButton to="/historicoRegistros" text="Meus registros" />
+      <LinkButton to="/meusregistros" text="Meus registros" />
     </div>
 
   );

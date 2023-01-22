@@ -8,6 +8,7 @@ import Registros from  './components/pages/Registros';
 import ViolenciaDomestica from './components/pages/ViolenciaDomestica';
 import RouboFurto from './components/pages/RouboFurto';
 import Acidente from './components/pages/Acidente';
+import MeusRegistros from './components/pages/MeusRegistros';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route path="/violenciaDomestica" element={<ViolenciaDomestica />} />
           <Route path="/furtoRoubo" element={<RouboFurto />} />
           <Route path="/acidente" element={<Acidente />} />
+          <Route path="/meusregistros" element={<MeusRegistros />} />
+          
         </Routes>
       </Router>
     </>

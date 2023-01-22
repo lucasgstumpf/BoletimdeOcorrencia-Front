@@ -63,6 +63,8 @@ function Cadastro() {
           placeholder="Insira sua data de nascimento" 
           handleOnChange={handleChangeValues}/>
 
+        
+
 
         <SubmitButton text="Cadastrar" />
       </form>

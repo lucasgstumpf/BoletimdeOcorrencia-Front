@@ -1,0 +1,16 @@
+.formulario{
+    background-color: rgb(231, 231, 231); 
+    margin: 4% auto;
+    width: 600px;
+    padding: 1.5em;
+    border-radius: 5px;
+}
+
+.botao{
+    border-radius: 5px;
+    background-color: #222;
+    padding: 1em;
+    color: #FFF;
+    border: none;
+    transition: .4s;
+}

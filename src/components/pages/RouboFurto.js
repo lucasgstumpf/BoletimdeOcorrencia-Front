@@ -21,6 +21,7 @@ function RouboFurto() {
       endereco: values.enderecoAgressor,
       pertences_perdidos: values.pertenceAgressor,
       resumo: values.resumoAgressor,
+      cpf: values.cpf
     }).then((res) => {
       console.log(res)
     }).catch((err) => console.log(err))
@@ -54,6 +55,14 @@ function RouboFurto() {
           name="resumoAgressor"
           placeholder="Insira o resumo do ocorrido" 
           handleOnChange={handleChangeValues}/>
+
+        <Input    
+          type="text"
+          text="CPF"
+          name="cpf"
+          placeholder="Insira o seu cpf"
+          handleOnChange={handleChangeValues}
+        />
 
         <SubmitButton text="Denunciar!" />
       </form>

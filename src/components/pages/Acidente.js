@@ -22,7 +22,8 @@ function Acidente() {
       marca_veiculo: values.marca_veiculo,
       modelo_veiculo: values.modelo_veiculo,
       placa_veiculo: values.placa_veiculo,
-      cor_veiculo: values.cor_veiculo
+      cor_veiculo: values.cor_veiculo,
+      cpf: values.cpf
     }).then((res) => {
       console.log(res)
     }).catch((err) => console.log(err))
@@ -76,6 +77,13 @@ function Acidente() {
           text="Cor do veiculo"
           name="cor_veiculo"
           placeholder="Insira a cor do veiculo do infrator"
+          handleOnChange={handleChangeValues}
+        />
+        <Input
+          type="text"
+          text="CPF"
+          name="cpf"
+          placeholder="Insira o seu cpf"
           handleOnChange={handleChangeValues}
         />
 

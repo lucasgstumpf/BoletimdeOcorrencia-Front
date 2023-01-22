@@ -21,6 +21,7 @@ function ViolenciaDomestica() {
       caracteristica_agressor: values.caracteristicaAgressor,
       endereco: values.enderecoAgressor,
       resumo: values.resumoAgressor,
+      cpf: values.cpf
     }).then((res) => {
       console.log(res)
     }).catch((err) => console.log(err))
@@ -54,6 +55,14 @@ function ViolenciaDomestica() {
                     name="resumoAgressor"
                     placeholder="Insira o resumo do ocorrido" 
                     handleOnChange={handleChangeValues}/>
+
+              <Input
+                type="text"
+                text="CPF"
+                name="cpf"
+                placeholder="Insira o seu cpf"
+                handleOnChange={handleChangeValues}
+              />
 
                 <SubmitButton text="Denunciar!" />
             </form>
