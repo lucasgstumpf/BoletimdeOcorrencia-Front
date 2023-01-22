@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../layouts/Navbar' 
 import styles from './Home.module.css';
 import {GiPoliceOfficerHead} from 'react-icons/gi'
 import LinkButton from '../layouts/LinkButton'
